@@ -1,0 +1,85 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    background-color: hsl(30, 54%, 90%);
+    
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding-top: 30px;
+}
+.inner{
+    flex: 1;
+    height: fit-content;
+    border-radius:30px ;
+    background-color: rgb(255, 255, 255);
+    max-width: 350px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+/* .image{
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 15px 0px 15px;
+} */
+#img1{
+    padding: 10px 15px 0px 15px;
+    border-radius: 30px;
+    height: 150px;
+    width: 320px;
+}
+.containt{
+    padding: 10px;
+    
+}
+.sec1{
+    background-color:hsl(30, 54%, 90%);
+    border-radius: 10px;
+    padding: 5px;
+}
+p{
+    font-size: 10px;
+}
+h4{
+    color:hsl(24, 5%, 18%);
+    margin-left: 20px;
+    color: hsl(332, 51%, 32%)
+}
+span{
+    
+    font-size:15px;
+    
+    color:hsl(0, 0%, 0%);
+    font-weight: bolder;
+}
+li{
+    font-size: small;
+    
+    
+}
+li::marker {
+    color: hsl(332, 51%, 32%);
+  }
+
+h3{
+    color: hsl(332, 51%, 32%);
+}
+th{
+    border-bottom: 1px solid #ddd;
+
+}
+table{
+    width: 100%;
+    text-align: left;
+    font-size: small;
+    margin-left: 10px;
+}
+.th1{
+    color:hsl(332, 51%, 32%) ;
+}
